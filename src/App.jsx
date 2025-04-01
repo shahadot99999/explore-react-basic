@@ -3,15 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './Todo'
+import Actor from './Actor'
 
 function App() {
 
   return (
     <>
       <h1>Vite + React</h1>
-      <Todo task="Learn React" isDone={true} ></Todo>
+      <Actor name={"mikel hug"}></Actor>
+      {/* <Todo task="Learn React" isDone={true} ></Todo>
       <Todo task="Explore Core Concept"  isDone={false}></Todo>
-      <Todo task="Try JSX" isDone={true} ></Todo>
+      <Todo task="Try JSX" isDone={true} ></Todo> */}
       {/* <Person></Person>
       <Device name = "Laptop" price = "55"></Device>
       <Device name = "mobile"></Device>
